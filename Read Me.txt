@@ -1,0 +1,22 @@
+﻿S18125918 - Lindelani Moyo 
+Web Application Development - Deliverable 1
+
+
+
+
+Developer Note
+
+
+Good Day, I hope you are well. 
+
+
+​​This folder contains files for a luxury clothes eCommerce website that I coded from scratch, no templates were used at all. I designed the logos, and all of the images were sourced from a previous fashion campaign and resized to match the website to give it a more authentic appearance. Please look over my codes as all of them contain the required HTML, CSS, JavaScript, Bootstrap v5.0, and also include individual JavaScript files for the contact, registration, and login pages.
+
+
+I submit this assignment to you with all of the pages linked and interactive aspects enabled. The first four items on the products.html page, and the same four featured products on the index.html page, are all responsive. The website is also responsive to devices with a width of less than 800 pixels and screen sizes less than 600. 
+
+
+In comparison to Chinese/Japanese & Southeast Asia fashion websites, I designed a fashion luxury eCommerce website based on the UK fashion websites which I initially looked at for inspiration which arose from a comment made by my lecturer in my web application development class about how UK fashion websites tend to use a white background with a minimalistic design style.
+
+
+I am very proud of the website I have developed and I hope you like it!

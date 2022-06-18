@@ -1,0 +1,252 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embroidered Textured Midi Dress - Pandora Piere London</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cairo:wght@300&family=Goudy+Bookletter+1911&family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <script src="products.js" async></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img
+              src="images/logo-pandora.png"
+              alt="pandora piere brand logo"
+              width="125px"
+            />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="signin.html">Account</a></li>
+              <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart"/></a>
+        <img
+          src="images/menu.png"
+          class="menu-icon"
+          onclick="menutoggle()"
+          width="30px"
+          height="30px"
+          alt="menu"
+        />
+      </div>
+    </div>
+
+    <!-- Single Product Details -->
+
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="images/gallery-13.jpg"
+            width="100%"
+            alt="blue and white midi textured dress"
+            id="ProductImg"
+          />
+
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img
+                src="images/gallery-13.jpg"
+                width="100%"
+                alt="front of dress"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="images/gallery-14.jpg"
+                width="100%"
+                alt="close up detail of dress"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="images/gallery-15.jpg"
+                width="100%"
+                alt="side view including arm sleeves"
+                class="small-img"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="images/gallery-16.jpg"
+                width="100%"
+                alt="full sized image"
+                class="small-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <p><a href="index.html">Home</a> / <a href="products.html">New In</a> / Dresses</p>
+          <h1>Embroidered Textured Midi Dress</h1>
+          <h4>£269</h4>
+          <select name="size" id="size"> 
+            <option value="Select Your Size" selected disabled hidden>Select Your Size</option>
+            <option value="XS - UK 6">XS - UK 6</option>
+            <option value="S - UK 8">S - UK 8</option>
+            <option value="M - UK 10">M - UK 10</option>
+            <option value="L - UK 12">L - UK 12</option>
+            <option value="XL - UK 14">XL - UK 14</option>
+          </select>
+          <input type="number" min="1" max="10" value="1" />
+          <a href="cart.html" class="btn">Add To Cart</a>
+
+          <h3>Product Details  <i class="fas fa-indent"></i></h3>
+          <br>
+          <p><ul>
+            <li>• Dress with open back</li>
+            <li>• Embellished organza voile</li>
+            <li>• Round neckline</li>
+            <li>• Paige is 5'8' and wears a size M</li>
+          </ul></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="images/product-8.jpg"
+            alt="short sleeve contrasting pink tweed dress"
+          />
+          <h4>Contrasting Tweed Mini Dress</h4>
+          <p>£269</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/product-11.jpg"
+            alt="long sleeve belted striped jacket"
+          />
+          <h4>Belted Strippy Jacket</h4>
+          <p>£359</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/product-12.jpg"
+            alt="short sleeved black crepe crinkled jumpsuit"
+          />
+          <h4>Crepe Crinkled Jumpsuit</h4>
+          <p>£399</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/product-2.jpg"
+            alt="blue crocodile-effect embossed faux leather bag"
+          />
+          <h4>Crocodile-Effect Embossed Leather Handbag</h4>
+          <p>£219</p>
+      </div>
+    </div>
+ </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download our App for Android and iOS devices</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="play store logo" />
+              <img src="images/app-store.png" alt="app store logo" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-pandoratrans.png" alt="black pandora logo" />
+            <p>
+              Our core purpose is to epitomise creativity, elegance, luxury,
+              excellence, and craftsmanship in all of our products.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Need Help?</li>
+              <li>Return Policy</li>
+              <li>Our Brand Story</li>
+              <li>Become an Affiliate</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>TikTok</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright"> © 2022 Pandora Piere London Ltd. All Rights Reserved. <br> *This website was built by Lindelani Moyo.* </p>
+      </div>
+    </div>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+    <!-- JavaScript for Product Gallery -->
+    <script>
+      var ProductImg = document.getElementById("ProductImg");
+      var SmallImg = document.getElementsByClassName("small-img");
+
+      SmallImg[0].onclick = function () {
+        ProductImg.src = SmallImg[0].src;
+      };
+      SmallImg[1].onclick = function () {
+        ProductImg.src = SmallImg[1].src;
+      };
+      SmallImg[2].onclick = function () {
+        ProductImg.src = SmallImg[2].src;
+      };
+      SmallImg[3].onclick = function () {
+        ProductImg.src = SmallImg[3].src;
+      };
+    </script>
+  </body>
+</html>
